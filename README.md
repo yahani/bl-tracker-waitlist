@@ -12,5 +12,3 @@ Pushing to GitHub does not update the Cloudflare page. From this folder:
 ```sh
 d=$(mktemp -d) && cp index.html "$d" && npx wrangler@3 pages deploy "$d" --project-name bltracker --branch main
 ```
-
-Pushing to `main` does still update the GitHub Pages copy at https://yahani.github.io/bl-tracker-waitlist/.
